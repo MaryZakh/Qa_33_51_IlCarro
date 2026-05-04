@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
@@ -10,6 +11,7 @@ public class LoginTests extends TestBase {
         app.getHelperUser().fillLoginForm("margo@gmail.com","Mmar123456$");
         app.getHelperUser().submitLogin();
         //Assert--> if element with text "Logged in success" is present
-       // app.getHelperUser().clickOkButton();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in success");
+        app.getHelperUser().clickOkButton();
     }
 }
