@@ -8,6 +8,7 @@ import java.time.Duration;
 public class ApplicationManager {
 
     WebDriver wd;
+    HelperUser helperUser;
 
 
     public void init() {
@@ -15,10 +16,16 @@ public class ApplicationManager {
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://ilcarro.web.app/search");
+        helperUser = new HelperUser(wd);
+
 
     }
 
     public void stop() {
         wd.quit();
+    }
+
+    public HelperUser getHelperUser() {
+        return helperUser;
     }
 }

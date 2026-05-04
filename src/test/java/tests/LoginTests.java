@@ -5,7 +5,11 @@ import org.testng.annotations.Test;
 public class LoginTests extends TestBase {
 
     @Test
-    public void test(){
-
+    public void loginSuccess(){
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm("margo@gmail.com","Mmar123456$");
+        app.getHelperUser().submitLogin();
+        //Assert--> if element with text "Logged in success" is present
+       // app.getHelperUser().clickOkButton();
     }
 }
