@@ -39,5 +39,8 @@ public class HelperBase {
         return list.size()>0;
     }
 
+    public String getErrorText() {
+        return wd.findElement(By.cssSelector("div.error")).getText();
+    }
 
 }
