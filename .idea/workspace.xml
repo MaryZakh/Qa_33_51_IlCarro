@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,14 +70,22 @@
     "Gradle.LoginTests.loginWrongEmail.executor": "Run",
     "Gradle.LoginTests.loginWrongPassword.executor": "Run",
     "Gradle.LoginTests.test.executor": "Run",
+    "Gradle.RegistrationTests.executor": "Run",
+    "Gradle.RegistrationTests.registrationEmptyEmail.executor": "Run",
+    "Gradle.RegistrationTests.registrationEmptyLastName.executor": "Run",
+    "Gradle.RegistrationTests.registrationEmptyName.executor": "Run",
+    "Gradle.RegistrationTests.registrationEmptyPassword.executor": "Run",
+    "Gradle.RegistrationTests.registrationSuccess.executor": "Run",
+    "Gradle.RegistrationTests.registrationWrongEmail.executor": "Run",
+    "Gradle.RegistrationTests.registrationWrongPassword.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/QA33_51/Qa33_51_Start_Selenium"
+    "last_opened_file_path": "D:/QA33_51/Qa_33_51_Phonebook"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.LoginTests">
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RegistrationTests">
+    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -80,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests&quot;" />
+            <option value="&quot;tests.RegistrationTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -91,7 +109,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.registrationEmptyEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests.loginSuccess&quot;" />
+            <option value="&quot;tests.RegistrationTests.registrationEmptyEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -115,7 +133,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.registrationEmptyPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -128,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests.loginWrongEmail&quot;" />
+            <option value="&quot;tests.RegistrationTests.registrationEmptyPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,7 +157,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.registrationWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests.loginWrongPassword&quot;" />
+            <option value="&quot;tests.RegistrationTests.registrationWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,7 +181,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTests.registrationWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -176,7 +194,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LoginTests.test&quot;" />
+            <option value="&quot;tests.RegistrationTests.registrationWrongPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTests" />
-        <item itemvalue="Gradle.LoginTests.loginWrongPassword" />
-        <item itemvalue="Gradle.LoginTests.loginWrongEmail" />
-        <item itemvalue="Gradle.LoginTests.loginSuccess" />
-        <item itemvalue="Gradle.LoginTests.test" />
+        <item itemvalue="Gradle.RegistrationTests" />
+        <item itemvalue="Gradle.RegistrationTests.registrationWrongEmail" />
+        <item itemvalue="Gradle.RegistrationTests.registrationEmptyPassword" />
+        <item itemvalue="Gradle.RegistrationTests.registrationWrongPassword" />
+        <item itemvalue="Gradle.RegistrationTests.registrationEmptyEmail" />
       </list>
     </recent_temporary>
   </component>
