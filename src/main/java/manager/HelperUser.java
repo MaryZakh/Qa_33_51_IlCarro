@@ -18,6 +18,11 @@ public class HelperUser extends HelperBase {
         type(By.id("password"), password);
     }
 
+    public void fillLoginForm(User user) {
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
+
     public void submit() {
         click(By.xpath("//button[@type='submit']"));
     }
@@ -93,4 +98,10 @@ public class HelperUser extends HelperBase {
         }
     }
 
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        clickOkButton();
+    }
 }
